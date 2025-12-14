@@ -17,7 +17,9 @@ A full-stack web application to manage a sweet shop with user authentication, in
 🛠 Tech Stack
 
 Backend: Node.js, Express, MongoDB
+
 Frontend: React, CSS
+
 Auth: JWT
 
 ▶️ Run Locally
