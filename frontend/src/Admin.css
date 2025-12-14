@@ -1,0 +1,79 @@
+/* Admin.css */
+
+.admin-page {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-header h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.admin-header button {
+  background: #d9534f;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-form .form-row {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-form label {
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.admin-form input[type="text"],
+.admin-form input[type="number"],
+.admin-form input[type="file"] {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.admin-form input[type="file"] {
+  padding: 4px;
+}
+
+.add-btn {
+  width: 100%;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #218838;
+}
+
+.status-msg {
+  margin-top: 14px;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+}
